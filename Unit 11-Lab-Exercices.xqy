@@ -76,7 +76,7 @@ import module namespace search = "http://marklogic.com/appservices/search"
 	at "/MarkLogic/appservices/search/search.xqy";
 for $song in search:search("night")/search:result 
 let $title := fn:doc($song/@uri)//ts:title/text() 
-return <div>{$title}</div>
+return <div> {$title} </div>
 
 
 
