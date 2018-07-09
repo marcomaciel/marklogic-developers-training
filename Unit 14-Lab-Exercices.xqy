@@ -4,7 +4,9 @@
 import module namespace search = "http://marklogic.com/appservices/search" 
 	at "/MarkLogic/appservices/search/search.xqy";
 search:search("train")
-:)
+
+uIT1ul7&9^mi
+
 
 import module namespace search = "http://marklogic.com/appservices/search" 
 	at "/MarkLogic/appservices/search/search.xqy";
@@ -16,10 +18,9 @@ declare variable $options :=
 			</preferred-elements>
 	</transform-results> </options>;
 search:search("train", $options)
-
-
-
-
+:)
+import module namespace search = "http://marklogic.com/appservices/search" at "/MarkLogic/appservices/search/search.xqy";
+search:search("beatles", (), 41)
 
 
 
